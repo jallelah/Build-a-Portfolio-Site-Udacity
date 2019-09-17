@@ -1,0 +1,164 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+display: grid;
+grid-template-columns: auto auto;
+hight:100px;
+margin-bottom: 25px;
+border-bottom: 3px solid #7d97ad;
+}
+
+/***header style***/
+
+.header-img{
+max-width: 90px;
+}
+
+.header-logo{
+  text-align: left;
+  padding: 10px 0;
+}
+
+.header-text{
+  font-weight: 200;
+  text-align: right;
+}
+
+.header-text h1{
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.header-text p{
+  margin-top: 0;
+}
+
+/***Content style***/
+
+img{
+  height:auto;
+  max-width: 100%
+}
+
+.text-item{
+  font-size: 4vw;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Portfolio-work h2{
+  color: #7d97ad;
+  font-width:400;
+}
+
+h2{
+  display: flex;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+}
+
+.Portfolio-hdr,
+.Portfolio-item{
+  text-align: center;
+}
+
+.Portfolio-item{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-item{
+  margin: 20px 0;
+}
+
+.link-button{
+  border: 1px solid #2d3c49;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.link-button a:hover,
+.link-button a:active {
+    text-decoration: none;
+    background-color: rgba(3, 137, 253, 0.1);
+}
+
+/***footer style***/
+
+footer{
+  text-align: center;
+  border-top: 1px solid #7d97ad;
+}
+
+footer p{
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+footer p:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.icon img{
+  width:50px;
+  height: 50px;
+}
+@media screen and (min-width: 1230px){
+  .test-hdr{
+    font-size: 3vw;
+  }
+  .text-item{
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 850px){
+header, main, footer{
+  width: 850px;
+  margin-left:auto;
+  margin-right: auto;
+}
+}
+
+@media screen and (min-width: 830px){
+  .Portfolio-hdr {
+    font-size: 4vw;
+  }
+  .text-item{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 770px){
+  .Portfolio{
+    display:flex;
+    margin: 0 auto;
+    max-width: 1440px
+  }
+
+  .Portfolio-item{
+  margin:20px 20px 20px 0;
+  }
+
+  .Portfolio-item:last-child{
+  margin-right: 0;
+  }
+}
